@@ -5,6 +5,7 @@
 ## JavaScript 学习手记
 
 - [你不知道的 JavaScript 学习手记](https://github.com/244462375/LearnJavascript)
+- [JavaScript 复习整理](share/javascript/js-knowladge.md)
 
 ## Java 学习手记
 

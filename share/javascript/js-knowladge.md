@@ -1,6 +1,6 @@
 # Js 知识备忘录
 
-内容整合自[阮一峰 JavaScript 教程](https://wangdoc.com/javascript/)、[阮一峰 ECMAScript 6 教程](https://es6.ruanyifeng.com/)
+内容整合自[阮一峰 JavaScript 教程](https://wangdoc.com/javascript/)、[阮一峰 ECMAScript 6 教程](https://es6.ruanyifeng.com/)，部分来源于 [你不知道的JavaScript](https://github.com/getify/You-Dont-Know-JS)
 
 🧓 会了，🧓 现在就去和面试官对线
 

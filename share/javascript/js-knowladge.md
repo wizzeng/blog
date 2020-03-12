@@ -179,10 +179,6 @@
 
 - 使用闭包 + setTimeout 实现防抖和节流
 
-### Promise
-
-- [Promise 的 then 是微任务，追加在本轮时间循环后执行](https://wangdoc.com/javascript/async/promise.html#%E5%BE%AE%E4%BB%BB%E5%8A%A1)
-
 ## DOM
 
 ### Node 接口
@@ -239,6 +235,41 @@
 
 - 在对象中 super 指向原型对象
 - 链判断运算符和 Null 判断作用符
+- Object.is 解决 NaN
+
+## Symbol
+
+- Symbol 不能和其他值运算，但能强制转换为 String
+- Symbol.prototype.description 在转为 String 时提示
+- Symbol 在对象中使用需要用到方括号
+- Symbol 消除魔术字符串
+- Symbol 做键名，只能被 Reflect.ownKeys 和 Object.getOwnPropertySymbol 取到
+- Symbol.for (全局) 和 Symbol.keyFor
+- Symbol 实现 Singleton 模式
+
+## Set 和 Map
+
+- Set 实现交并补
+- 数组去重的方法（Set、Hash、遍历）
+- Weak 不会增加引用计数使得可被垃圾回收，且只接受对象
+
+## Proxy 和 Reflect
+
+- Proxy 和 Reflect 的 13 种拦截方法 / 静态方法
+- Proxy 代理对象，对象内部属性 this 指向 Proxy 对象
+- get / set / has / deleteProperty / construct / getPrototypeOf / setPrototypeOf / apply / defineProperty
+  / getOwnPropertyDescriptor / isExtensible / preventExtensions / ownKeys(所有属性)
+
+## Promise
+
+- 手写一个 Promise
+- resolve 和 reject 不会终止 Promise 函数运行，直到函数结束，才执行 then(事件循环原理)
+- then 返回新 Promise 实例
+- Promise 产生的异常会一路冒泡直至 catch，如果没 catch，只会打印异常但不会被 catch 块捕获
+- Promise.all / Promise.race
+- Promise.allSettled
+- [Promise 的 then 是微任务，追加在本轮时间循环后执行](https://wangdoc.com/javascript/async/promise.html#%E5%BE%AE%E4%BB%BB%E5%8A%A1)
+- Promise.resolve()
 
 # 未完待续
 
